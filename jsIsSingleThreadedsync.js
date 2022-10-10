@@ -8,11 +8,11 @@ res.end('Welcome to Home Page')
 }
 
 if(req.url==='/about'){
-setTimeout(()=>{for(i=0;i<=500;i++){
-        for (j=0;j<=500;j++){
+for(i=0;i<=300;i++){
+        for (j=0;j<=300;j++){
             console.log(i+j)
         }
-    }},1000)
+    }
     res.end('Welcome to about page')
 }
 
